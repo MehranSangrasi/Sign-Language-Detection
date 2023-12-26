@@ -32,6 +32,7 @@ def render(predictions, image):
             letter_durations.clear()
             print("Saved letter:", letter)
             word_duration = 0
+           
 
         if letter == " ":  # Or any other non-letter character
             if current_word != "":
@@ -40,6 +41,12 @@ def render(predictions, image):
                 letter_durations.clear()  # Reset for the next word
 
         last_detection_time = time.time()  # Update last detection time
+
+    text_size, _ = cv2.getTextSize(f"{current_word}", cv2.FONT_HERSHEY_SIMPLEX, 1, 2)  # Get text size
+    text_x = (image.shape[1] - text_size[0]) // 2  # Calculate horizontal center
+    text_y = image.shape[0] - 15  # Position near bottom
+
+    cv2.putText(image, f"{current_word}", (text_x, text_y), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
     image = annotator.annotate(
         scene=image,
