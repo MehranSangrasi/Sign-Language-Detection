@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 model = load_model("Testing Camera\\unet.h5")
 
 # Load and preprocess the image
-image = cv2.imread("Testing Camera\\captured_photo.jpg")
+image = cv2.imread("captured_photo.jpg")
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 image = cv2.resize(image, (224, 224))
 image = image / 255.0
