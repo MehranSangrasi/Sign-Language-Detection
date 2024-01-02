@@ -76,7 +76,8 @@ no_detection_thread = threading.Thread(target=check_no_detections)
 no_detection_thread.start()
 
 inference.Stream(
-    source="webcam",
+    source="webcam",                                                                  # Use webcam
+    # source="rtsp://10.7.19.150:8080/h264_ulaw.sdp",                                 # Use IP camera
     model="american-sign-language-letters/6",
     api_key="ds2uxDxQx48AI3lrbTqU",
     output_channel_order="BGR",
