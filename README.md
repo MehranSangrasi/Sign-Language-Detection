@@ -1,4 +1,4 @@
-American Sign Language Recognition
+# American Sign Language Recognition
 
 ## Team
 
@@ -20,7 +20,7 @@ discuss the limitations of our work and highlight***
 Keywords---ASL, computer vision, digital image processing, yolo, image
 segmentation, object detection
 
-# Introduction 
+## Introduction 
 
 American Sign Language (ASL) serves as the primary communication medium
 for individuals with hearing impairments or speech disabilities.
@@ -31,7 +31,7 @@ gestures into text or spoken language. This report outlines our research
 on building a robust ASL detection system using YOLO v8 and image
 processing techniques.
 
-# literature review
+## literature review
 
 ASL presents a rich and visually intricate form of communication used by
 millions globally. Recognizing and translating ASL gestures into text
@@ -41,7 +41,7 @@ advancements in utilizing computer vision and deep learning for ASL
 detection and translation, highlighting notable challenges and promising
 directions for future research.
 
-## Challenges and Considerations:
+### Challenges and Considerations:
 
 The inherent complexities of ASL pose several challenges for automatic
 recognition and translation:
@@ -63,7 +63,7 @@ recognition and translation:
     is crucial for effective model training, necessitating continued
     efforts in data collection and annotation.
 
-## Computer Vision and Deep Learning Techniques:
+### Computer Vision and Deep Learning Techniques:
 
 Deep learning, particularly convolutional neural networks (CNNs), has
 emerged as a potent tool in addressing these challenges. Key techniques
@@ -93,7 +93,7 @@ employed include:
     relevant parts of the sequence during recognition, enhancing
     comprehension and mitigating ambiguity.
 
-## State-of-the-art Approaches and Results:
+### State-of-the-art Approaches and Results:
 
 Recent research has yielded promising results, driven by factors like:
 
