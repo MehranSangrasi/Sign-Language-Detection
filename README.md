@@ -1,24 +1,12 @@
 American Sign Language Recognition
 
-**Abdullah Saim**\
-CMS: *375503*\
-Class: *BSCS-11C*\
-Department: *School of Electrical Engineering and Computer Science*\
-Organization: *National University of Science and Technology*
+## Team
 
-**Mehran**.\
-CMS: *375327*\
-Class: *BSCS-11C*\
-Department: *School of Electrical Engineering and Computer Science*\
-Organization: *National University of Science and Technology*
+- Mehran Wahid 
+- Abdullah Saim - [Github](https://github.com/ASa1m)
 
-**Danish Azeem**\
-CMS: *366885*\
-Class: *BSCS-11C*\
-Department: *School of Electrical Engineering and Computer Science*\
-Organization: *National University of Science and Technology*
 
-***Abstract---This report presents the development and evaluation of a
+***Abstract---This repo presents the development and evaluation of a
 framework for automatic American Sign Language (ASL) detection using a
 combination of computer vision techniques and deep learning. We leverage
 YOLO v8, a state-of-the-art object detection model, and incorporate
