@@ -408,14 +408,14 @@ step towards bridging the communication gap for the deaf and
 hard-of-hearing community, and continued exploration holds immense
 potential for empowering communication accessibility in the future.
 
-##### Acknowledgment
+# Acknowledgment
 
 We are deeply grateful to our course instructor, Professor Asad Khan,
 for his invaluable guidance and insightful feedback throughout this
 project. His expertise and mentorship were instrumental in shaping our
 research.
 
-##### References
+# References
 
 ## Multimodal information:
 
