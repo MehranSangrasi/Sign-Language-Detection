@@ -73,9 +73,6 @@ employed include:
     the frame and following their movement across frames, providing a
     crucial foundation for feature extraction.
 
-```{=html}
-<!-- -->
-```
 -   **Feature extraction:** CNNs excel at extracting key features from
     hand shapes, orientations, and motion patterns, capturing the
     essence of individual signs and their dynamics.
