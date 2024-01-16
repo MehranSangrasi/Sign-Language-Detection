@@ -17,8 +17,10 @@ achieved on benchmark datasets are presented, demonstrating the
 effectiveness of our approach in real-world scenarios. Finally, we
 discuss the limitations of our work and highlight***
 
-Keywords---ASL, computer vision, digital image processing, yolo, image
-segmentation, object detection
+
+## To run
+Go to Code Folder. It contains final application 😊.
+
 
 ## Introduction 
 
