@@ -19,7 +19,7 @@ discuss the limitations of our work and highlight***
 
 
 ## To run
-Go to Code Folder. It contains final application 😊.
+Go to Code Folder. It contains final application in python.
 
 
 ## Introduction 
